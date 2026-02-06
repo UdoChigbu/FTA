@@ -8,6 +8,7 @@ def upload_file():
         if request.method=="POST":
                 file = request.files['csv_file']
                 upload_file_to_cloud(file)
+                
         return render_template('upload.html')
 
 

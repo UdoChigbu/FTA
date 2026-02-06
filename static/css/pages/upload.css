@@ -45,7 +45,7 @@ form{
     align-items: center;
     justify-content: center;
    display:flex;
-   /*display:none;*/
+   display:none;
     inset:20%;
     border-radius:45px;
 }
